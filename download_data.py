@@ -7,7 +7,7 @@ import zipfile
 import shutil
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Download data from the internet.')
+    parser = argparse.ArgumentParser(description='Download data via NCBI accession codes.')
     parser.add_argument(
         '-i',
         '--input',
